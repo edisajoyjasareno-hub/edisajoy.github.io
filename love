@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 8 Months ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(to bottom,#ffd6e7,#fff);
+    text-align:center;
+    color:#333;
+}
+
+header{
+    padding:60px 20px;
+}
+
+h1{
+    color:#ff4d88;
+    font-size:45px;
+}
+
+img{
+    width:220px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+section{
+    padding:40px 20px;
+}
+
+button{
+    background:#ff4d88;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff2d73;
+}
+
+#letter{
+    display:none;
+    max-width:700px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+}
+
+footer{
+    padding:30px;
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Happy 8 Months, Love ❤️</h1>
+
+<img src="JOY">
+
+<p>"Every love story is beautiful, but ours is my favorite."</p>
+
+<button onclick="showLetter()">Open My Letter 💌</button>
+
+</header>
+
+<section id="letter">
+
+<h2>To My Love ❤️</h2>
+
+<p>
+
+Hi Love,
+
+Happy 8 Monthsary!
+
+Thank you for choosing me every single day.
+
+Thank you for loving me even when I'm not at my best.
+
+These past eight months have been filled with laughter, adventures, and unforgettable memories.
+
+I know we aren't perfect, but I promise to keep choosing you, supporting you, and loving you through every season of life.
+
+You are my favorite person, my safe place, and my greatest blessing.
+
+I can't wait to create more memories, celebrate more anniversaries, and grow old with you.
+
+I love you more than words can ever express.
+
+Forever yours,
+
+❤️ JOY ❤️
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Reasons I Love You ❤️</h2>
+
+<p>😊 Your smile</p>
+<p>🤍 Your kindness</p>
+<p>😂 The way you make me laugh</p>
+<p>🌸 You make me feel at home</p>
+<p>💖 Because you're YOU</p>
+
+</section>
+
+<footer>
+
+Made with all my love ❤️
+
+</footer>
+
+<script>
+function showLetter(){
+document.getElementById("letter").style.display="block";
+window.scrollTo({
+top:500,
+behavior:"smooth"
+});
+}
+</script>
+
+</body>
+</html>
